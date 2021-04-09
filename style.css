@@ -1,0 +1,150 @@
+body{
+    background: hsl(204, 43%, 93%);
+    font-family: karla;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 700px){
+    .container{
+        width: 50%;
+        margin-left: 25%;   
+}}
+
+.header{
+    background: white;
+    padding-left: 20px;
+    padding-bottom: 20px;  
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.join{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    padding-top: 20px;
+}
+
+.day{
+    font-size: 16px;
+    font-weight: 700;
+    color:  hsl(71, 73%, 54%);
+}
+
+.gain{
+    font-size: 15px;
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    width: 90%;
+    line-height: 1.5;
+}
+
+.main{
+    background: hsl(179, 62%, 43%);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+    height: 45%;
+}
+
+@media (min-width: 700px){
+    .main, .footer{
+        width: 50%;  
+        border-bottom-left-radius: 5px;   
+}}
+
+.monthly{
+    font-size: 16px;
+}
+
+.per{
+    display:flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: -15px;
+}
+
+.dolar{
+    font-size: 25px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+.month{
+    font-size: 15px;
+    opacity: 0.5;
+    padding-top: 15px;
+}
+
+.full{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.sign{
+    background-color: hsl(71, 73%, 54%);
+    width: 92%;
+    height: 45px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 25px;
+}
+
+.row{
+    display:flex;
+    flex-direction: column;
+}
+
+@media (min-width: 700px){
+    .row{
+        flex-direction: row;
+}}
+
+.footer{
+    background: hsl(179, 57%, 55%);
+    padding-left: 20px;
+    padding-bottom: 9px;
+    padding-top: 10px;
+    color:white;
+    height: 45%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media (min-width: 700px){
+    .footer{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 5px;
+        width: 50%;
+}}
+
+.why{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.details{
+    line-height: 0.5;
+    font-size: 15px;
+    padding-top: 1px;
+}
+
+.attribution{
+    width: 70%;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 15%;
+    padding-bottom: 20px;
+}
+
+.mentor{
+    color:hsl(71, 73%, 54%);
+}
